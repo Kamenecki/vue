@@ -1,9 +1,14 @@
 <template>
+ <div id="backgrnd">
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    | <router-link to="/">Home</router-link> |
+    <router-link to="/Cart">Cart</router-link> |
+    <router-link to="/Login">Login</router-link> |
+    <router-link to="/Reg">Reg</router-link> |
+    <router-link to="/about">About</router-link> |
   </div>
   <router-view/>
+ </div>
 </template>
 
 <style>
@@ -12,7 +17,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+
+
 }
 
 #nav {
@@ -25,6 +31,7 @@
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #8d29aa;
+
 }
 </style>

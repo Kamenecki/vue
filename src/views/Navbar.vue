@@ -1,10 +1,9 @@
 <template>
-
 </template>
 
 <script>
 export default {
-  name: "Offer"
+  name: "Nav"
 }
 </script>
 
